@@ -1,7 +1,10 @@
 html {
 	margin: auto;
 	position: relative;
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+	font-family: "Myriad Pro", Helvetica, sans-serif;
 }
 
 header {
@@ -10,14 +13,16 @@ header {
 	padding-bottom: 20px;
 
 }
-.nav-justified .li {
-	color: #777;
-}
 
 .nav-justified {
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 }	
+
+.nav-justified li a,
+.nav-justified li a:hover {
+	color: black;
+}
 
 .blurb {
 	margin-top: 70px;
@@ -36,5 +41,8 @@ header {
 	padding-bottom: 70px;
 	padding-top: 50px;
 	color: #FFFFFF;
+}
 
+.pad-column {
+	padding: 0px 10px 0px 10px;
 }
